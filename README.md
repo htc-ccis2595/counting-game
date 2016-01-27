@@ -43,5 +43,6 @@ For your number game, we will count from 1 to 30 using the following rules:
 Remember:  if the number is divisible by both numbers, both words should print on the same line.
 
 ## GitHub Info
-Repository:  https://github.com/htc-ccis2595/counting-game 
+Repository:  https://github.com/htc-ccis2595/counting-game
+
 You need to fork this repository and submit a pull request to turn in the assignment.  Please post a screenshot of the pull request to the D2L dropbox.  The dropbox is mainly used to communicate due dates, not for storing the completed work.  You do not need to upload the project to D2L, only to GitHub.
