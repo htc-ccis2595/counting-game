@@ -1,37 +1,47 @@
-# simple-java-functions
+# counting-game
 
-## Homework 2
+## Homework 1 - Part 1 - Counting Game
 
-We're going to write a few helper functions and use them in our main function.  
+When teaching kids division, they often will play a word game where the students will sit in a circle and count up from 1 to some number (say 10 for example), but with a twist. If a number is divisible by another number, that number is replaced with a word.
 
-## GitHub Info
-Repository:  https://github.com/htc-ccis2595/simple-java-functions
+For example, a rule might be if a number is divisible by two, then say “woof”. So it would go like this:
+1
+woof
+3
+woof
+5
+woof
+7
+woof
+9
+woof
 
-You need to fork this repository and submit a pull request to turn in the assignment.  Please post a screenshot of the pull request to the D2L dropbox.  The dropbox is mainly used to communicate due dates, not for storing the completed work.  You do not need to upload the project to D2L, only to GitHub.
+The game grows in complexity as more rules are added.  If we add a new rule to say “meow” when a number is divisible by three, we get:
+1
+woof
+meow
+woof
+5
+woof meow
+7
+woof
+meow
+woof
+
+Notice that in place of 6 we said both woof and meow because 6 is divisible by both 2 (woof) and 3 (meow).
+
 
 ## Assignment
-Use InteliJ to create a new project called simple-java-functions in the spot where you clone the GitHub Repository.
+Your first assignment is to write code for this number game in Java. Recall that you can tell if a number is divisible by another by using the modulus operator (%) which gives you the remainder from division.  If the result is zero (there is no remainder) then the first number is divisible by the second.
 
-Use the Command Line template to make a basic "Main" class with a main function.  
+For your number game, we will count from 1 to 30 using the following rules:
 
-### Dog Human Age
-Make a static function called "calculateDogHumanAge" that:
- - takes a single input parameter (that might be a decimal)
- - returns the human age
+- If a number is divisible by 5, then print "beep" instead of the number
+- If a number is divisible by 8, then print "buzz" instead of the number
+- If a number is divisible by 12, then print "zap" instead of the number
 
-For the first two years, a dog year is equal to 10.5 human years.
-After that, each dog year equals 4 human years.
+Remember:  if the number is divisible by both numbers, both words should print on the same line.
 
-FYI: This calculation is based on studies that indicate dogs, except maybe larger breeds, develop more quickly in the first two years of life.
-
-### Cat Human Age
-Make a static function called "calculateCatHumanAge" that:
- - takes a single input parameter (that might be a decimal)
- - returns the human age
-
-A one year old, a cat is roughly equal to a 15 year old human.
-At two years, a cat is roughly equal to a 25 year old human.
-After that, each cat year equals about 4 human years.
-
-### Main method
-Use each of the above functions in your main method.  Call them 3-4 times with different values and print the output to show that they work.
+## GitHub Info
+Repository:  https://github.com/htc-ccis2595/counting-game 
+You need to fork this repository and submit a pull request to turn in the assignment.  Please post a screenshot of the pull request to the D2L dropbox.  The dropbox is mainly used to communicate due dates, not for storing the completed work.  You do not need to upload the project to D2L, only to GitHub.
