@@ -15,6 +15,7 @@ package com.htc;
     Remember:  if the number is divisible by both numbers, both words should print on the same line.
     */
 
+
 public class Main {
 
     public static void main(String[] args) {
